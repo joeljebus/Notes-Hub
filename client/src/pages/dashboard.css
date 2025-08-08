@@ -1,0 +1,54 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+  padding: 2rem;
+  height: 100vh;
+  width: 175vh;
+  background: linear-gradient(to right, #f2f2f2, #e6e6e6);
+  position: relative;
+  text-align: center;
+}
+
+.credit-display {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-weight: bold;
+  background-color: #fff8dc;
+  padding: 8px 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+}
+
+.welcome-text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.tab-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+  margin-top: 4rem;
+}
+
+.tab {
+  flex: 1;
+  margin: 0 1rem;
+  height: 80%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.tab:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
